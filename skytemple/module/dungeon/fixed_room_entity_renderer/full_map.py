@@ -24,8 +24,9 @@ from skytemple_files.common.dungeon_floor_generator.generator import TileType, R
 from skytemple_files.dungeon_data.fixed_bin.model import EntityRule, FixedFloorActionRule, TileRuleType, TileRule, \
     DirectRule
 from skytemple_files.dungeon_data.mappa_bin.trap_list import MappaTrapType
-from skytemple_files.graphics.dpc.model import DPC_TILING_DIM
-from skytemple_files.graphics.dpci.model import DPCI_TILE_DIM
+from skytemple_files.graphics.dpc import DPC_TILING_DIM
+from skytemple_files.graphics.dpci import DPCI_TILE_DIM
+
 COLOR_ITEM = (0, 0.3, 1, 1)
 COLOR_OUTLINE = (0, 0, 0, 1)
 
